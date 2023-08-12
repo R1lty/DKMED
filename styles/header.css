@@ -3,6 +3,7 @@
     height: 100px;
     display: flex;
     background-color: #F6C8C8;
+    /* position: fixed; */
 }
 .logo-part{
     height: 100%;
@@ -47,6 +48,7 @@
     left: 364px;
     border:none;
     border-radius: 0px 13px 13px 0px;
+    cursor: pointer;
     transition: opacity 0.3s;
 }
 .search-button:hover{
