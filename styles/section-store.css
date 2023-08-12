@@ -1,0 +1,6 @@
+.store-section{
+    display: grid;
+    grid-column: 50px 50px 50px;
+    width: 100%;
+    height: 100%;
+}
