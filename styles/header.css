@@ -1,0 +1,17 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #F6C8C8;
+}
+.logo-part{
+    height: 100%;
+    width: 20%;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+}
+.search-part{
+    height: 100%;
+    width: 80%;
+}
