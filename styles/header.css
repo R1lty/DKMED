@@ -1,6 +1,7 @@
 .header{
     width: 100%;
     height: 100px;
+    display: flex;
     background-color: #F6C8C8;
 }
 .logo-part{
@@ -12,6 +13,48 @@
     width: 100%;
 }
 .search-part{
+    display: flex;
+    justify-content: center;
     height: 100%;
     width: 80%;
 }
+.search{
+    margin-right: 550px;
+    margin-top:auto;   
+    margin-bottom:auto;  
+    border:none; 
+}
+.search-sector{
+    height: 40px;
+    width: 400px;
+    padding-left: 10px;
+    border:none;
+    border-radius: 13px;
+    position: absolute;
+    font-size: 18px;
+}
+.search-sector:active{
+    border:none;
+}
+.search-sector:focus {
+    outline: none;
+}
+.search-button{
+    height: 40px;
+    background-color: #FEF1DD;
+    position: relative;
+    right: 0px;
+    left: 364px;
+    border:none;
+    border-radius: 0px 13px 13px 0px;
+    transition: opacity 0.3s;
+}
+.search-button:hover{
+    background-color: #FEF1DD;
+    opacity: 40%;
+}
+.search-logo{
+    height: 65%;
+    width: 100%;
+}
+
