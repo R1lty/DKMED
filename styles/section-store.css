@@ -1,12 +1,16 @@
-.store-section{
+.store-section {
     display: grid;
-    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
     width: 100%;
-    height: 100%;
+    overflow-x: hidden; 
 }
-.item-section{
-    margin-right: 50px;
-    height: 50px;
-    width: 50px;
-    background-color: red;
+
+.item-section {
+    height: 300px;
+    width: 85%; 
+    margin: 0 20px; 
+    margin-bottom:30px;
+    display: flex;
+    flex-direction: column;
 }

@@ -1,0 +1,19 @@
+.photo-area{
+    width: 100%;
+}
+.item-section{
+    display: flex;
+    cursor: pointer;
+}
+.item-section:hover{
+    border:solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+.photo-of-product{
+    width: 100%;
+}
+.name-of-product{
+    text-align: center;
+    font-weight: bold;
+}
