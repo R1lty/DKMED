@@ -10,6 +10,7 @@
 .logo-part{
     height: 100%;
     width: 20%;
+    cursor: pointer;
 }
 .logo{
     height: 100%;
