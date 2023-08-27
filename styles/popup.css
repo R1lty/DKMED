@@ -10,11 +10,26 @@
     border-width: 5px;
     display: flex;
     justify-content: center;
+    position: absolute;
 }
-tr{
-    height: 10px;
+.close-button{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    z-index: 100;
+    top:-30px;
+    right: -325px;
+    border-radius: 100px;
+    border:solid;
+    border:2;
+    background-color: #F6C8C8;
+    border-width: 4px;
+    border-color: black;
 }
-td{
-    height: 20px;
-    width: 50px;
+.closeButton-image{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: -15px;
+    top: 15px;
 }
