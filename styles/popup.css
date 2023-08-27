@@ -10,7 +10,7 @@
     border-width: 5px;
     display: flex;
     justify-content: center;
-    position: absolute;
+    position: fixed;
 }
 .close-button{
     width: 70px;
