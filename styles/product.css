@@ -4,6 +4,7 @@
 .item-section{
     display: flex;
     cursor: pointer;
+    height: 400px;
 }
 .item-section:hover{
     border:solid;
